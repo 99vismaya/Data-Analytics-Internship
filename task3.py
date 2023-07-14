@@ -31,7 +31,7 @@ def scrape_per_capita_income():
 
 def plot_choropleth(data):
     # Load the shapefile for India's states
-    shapefile_path = 'C:/Users/Dell/Downloads/india_administrative_boundaries_state_level.shp'
+    shapefile_path = 'india_administrative_boundaries_state_level.shp'
     india_map = gpd.read_file(shapefile_path)
 
     # Merge the data with the shapefile based on the state names
